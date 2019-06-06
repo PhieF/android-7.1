@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/ayufan-pine64" name="ayufan"/>
+  
+  <project groups="pdk" name="android_external_busybox" path="external/busybox" remote="ayufan" revision="5827297ffe2d7b0fcb6b29e2fe953bf21b90a161" upstream="nougat"/>
+  <project groups="pdk" name="android_external_ethtool" path="external/ethtool" remote="ayufan" revision="e88940d9e3f17bd56a9998b186da1099306bec22" upstream="s805_4.4.2_master"/>
+  <project groups="pdk" name="boot-tools" path="vendor/ayufan-pine64/boot-tools" remote="ayufan" revision="78d7879e50661c7b6624f7a8e1ceda6e222184bb" upstream="master"/>
+  <project groups="pdk" name="build" remote="ayufan" revision="a73ef6cbafac395754f40831c474a1ed37752f36" upstream="nougat-7.1">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project groups="pdk" name="device-pine64-common" path="vendor/ayufan-pine64/pine64-common" remote="ayufan" revision="006698d78799ddf5ed4caa9ffc9afb04d331ecb1" upstream="master"/>
+  <project groups="pdk" name="device-softwinner" path="device/softwinner" remote="ayufan" revision="b8c44e376146adb42d1bccb36e180aac3445b6d6" upstream="nougat"/>
+  
+  <project groups="pdk" name="external-minijail" path="external/minijail" remote="ayufan" revision="29e2972a3622bca8290623fdc18b1eeeda1724e5" upstream="nougat-7.1"/>
+  <project groups="pdk" name="frameworks-av" path="frameworks/av" remote="ayufan" revision="8ab8f56f7026b3af951403ad98bc27bbb698093b" upstream="nougat-7.1"/>
+  <project groups="pdk" name="frameworks-base" path="frameworks/base" remote="ayufan" revision="bd8d652388451b7f1faec4a2828e66def8054aa2" upstream="nougat-7.1"/>
+  <project groups="pdk" name="frameworks-native" path="frameworks/native" remote="ayufan" revision="3ddd2a8b6728615911cc676da6df1317ab54cb2d" upstream="nougat-7.1"/>
+  <project groups="pdk" name="frameworks-wilhelm" path="frameworks/wilhelm" remote="ayufan" revision="b26a4cc67798aecca4dcec9070efcfb79c9d3fd4" upstream="nougat-7.1"/>
+  <project groups="pdk" name="hardware-aw" path="hardware/aw" remote="ayufan" revision="6165db01c87ef3e5e757db82809f0492cd0729cb" upstream="nougat"/>
+  <project groups="pdk" name="hardware-libhardware" path="hardware/libhardware" remote="ayufan" revision="59af9ed092df75e87626d433124448fcb898f92d" upstream="nougat-7.1"/>
+  <project groups="pdk" name="hardware-realtek" path="hardware/realtek" remote="ayufan" revision="1d722135621152e62535760d45c24e92234dff80" upstream="nougat"/>
+  <project clone-depth="1" groups="pdk" name="linux-pine64" path="linux/kernel-tulip" remote="ayufan" revision="bc64704cde960332459c7ed613daab7e701822ad" upstream="my-hacks-1.2"/>
+  <project name="opengapps_atv_build" path="vendor/google/atv-build" remote="ayufan" revision="9c74aa97206959dcda34290eebc5888e086ce3a0" upstream="nougat"/>
+  <project groups="pdk" name="packages-apps-Provision" path="packages/apps/Provision" remote="ayufan" revision="3a9d5f68218b9399bf340758a099c74e7bb7637c" upstream="nougat-7.1"/>
+  
+  <project groups="pdk" name="system-bt" path="system/bt" remote="ayufan" revision="fcfc9ea34b0d02beb41dc685afb6e90c3f7b44c0" upstream="nougat-7.1"/>
+  <project groups="pdk" name="system-core" path="system/core" remote="ayufan" revision="cded84e145c20507c60544629a46c5a3cf74a801" upstream="nougat-7.1"/>
+  <project groups="pdk" name="system-netd" path="system/netd" remote="ayufan" revision="c94a212d08176bffffce8c2ffc68c2346d56610a" upstream="nougat-7.1"/>
+  <project groups="pdk" name="system-sepolicy" path="system/sepolicy" remote="ayufan" revision="cd50ff71ab35269240df3f11a4272ff4314e8ac3" upstream="nougat-7.1"/>
+  <project clone-depth="1" name="vendor-supersu" path="vendor/supersu" remote="ayufan" revision="dead1e03450e90bf71f8a874979018a5d44f2153" upstream="nougat"/>
+</manifest>
